@@ -6,7 +6,7 @@ on:
 
 jobs:
   s3-job:
-    runs-on: self-hosted  # EC2 runner
+    runs-on: ubuntu-latest  # EC2 runner
 
     env:
       BUCKET_NAME: my-bucket-${{ github.run_id }}
