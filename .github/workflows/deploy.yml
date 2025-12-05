@@ -59,4 +59,4 @@ jobs:
 
       - name: Upload Files to S3
         run: |
-          aws s3 cp ./files/ s3://$BUCKET_NAME/ --recursive
+          aws s3 cp ./ s3://$BUCKET_NAME/ --recursive
