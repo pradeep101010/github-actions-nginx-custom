@@ -6,7 +6,7 @@ on:
 
 jobs:
   s3-job:
-    runs-on: self-hosted  # EC2
+    runs-on: self-hosted  # EC2 image
 
     env:
       BUCKET_NAME: my-bucket-${{ github.run_id }}
